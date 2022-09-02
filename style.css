@@ -5,7 +5,7 @@ body {
 
 h1 {
     font-size: 50px;
-    color: orange;
+    color: black;
 }
 
 .orange {
@@ -14,6 +14,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half {
@@ -38,4 +39,11 @@ section {
 .top {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
